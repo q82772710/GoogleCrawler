@@ -1,0 +1,16 @@
+[INFO  - 2017-08-28T11:24:12.407Z] GhostDriver - Main - running on port 57432
+[INFO  - 2017-08-28T11:24:12.448Z] Session [6ad76eb0-8be3-11e7-befb-1b39977a0a7f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0","webSecurityEnabled":true}
+[INFO  - 2017-08-28T11:24:12.448Z] Session [6ad76eb0-8be3-11e7-befb-1b39977a0a7f] - page.customHeaders:  - {}
+[INFO  - 2017-08-28T11:24:12.449Z] Session [6ad76eb0-8be3-11e7-befb-1b39977a0a7f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0"}
+[INFO  - 2017-08-28T11:24:12.449Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6ad76eb0-8be3-11e7-befb-1b39977a0a7f
+[ERROR - 2017-08-28T11:24:23.023Z] Session [6ad76eb0-8be3-11e7-befb-1b39977a0a7f] - page.onError - msg: Error: Load timeout for modules: route/company
+http://requirejs.org/docs/errors.html#timeout
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-28T11:24:23.024Z] Session [6ad76eb0-8be3-11e7-befb-1b39977a0a7f] - page.onError - stack:
+  defaultOnError (https://static.tianyancha.com/wap-require-js/public/js/lib/require.js:143)
+  onError (https://static.tianyancha.com/wap-require-js/public/js/lib/require.js:549)
+  checkLoaded (https://static.tianyancha.com/wap-require-js/public/js/lib/require.js:700)
+  (anonymous function) (https://static.tianyancha.com/wap-require-js/public/js/lib/require.js:1464)
+
+  phantomjs://platform/console++.js:263 in error
